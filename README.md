@@ -23,5 +23,5 @@ The implementation of the algorithm relies on the following files:
 ## Example
 The figure below illustrates a simulation of a 2D Student Storm Process in a (400,600) rectangle with ![\alpha=1.5,a=1](https://latex.codecogs.com/svg.latex?\alpha=1.5,a=1).
 
-![alt text](https://github.com/Remsya/M2Process/blob/main/Files/Rplot.png)
+![alt text](https://github.com/Remsya/M2Process/blob/main/Files/CauchySim.png)
 
