@@ -19,6 +19,7 @@ The implementation of the algorithm relies on the following files:
 - ```M2ProcessHelper.cpp``` and ```VectorHelper.cpp```: Helper functions to compute necessary mathematical quantities (volumes, etc.) and manipulate vectors.
 - ```StormFunction.cpp```, ```StormFunctionLaplace.cpp```, ```StormFunctionCauchy.cpp```: To create and compute the shape functions, as well as their moments.
 
+Once the simulation is complete, the Poisson points and their domains of influence are stored in text files (`T.txt`, `S.txt`, `R.txt`) in the folder *Files* so that they can be used to compute the Storm process at any given point within the simulation window (ball or rectangle).
 
 ## Example
 The figure below illustrates a simulation of a 2D Student Storm Process in a (400,600) rectangle with ![\alpha=1.5,a=1](https://latex.codecogs.com/svg.latex?\alpha=1.5,a=1). Note that this is the default simulation example given in ```SimM2Process.R```, also represented in *Files/CauchySim.pdf*.
