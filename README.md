@@ -7,7 +7,7 @@ Storm Process continuous simulation algorithm.
 This repository contains the reference implementation of the algorithm detailed in *Continuous simulation of storm processes*, by Demangeot et al., as well as a basic R interface.
 
 ## Code
-A starting code is provided in ```SimM2Process.R```, where the user can call the C++ source code to simulate within a *d-rectangle* or a *d-sphere*, where *d* can be any dimension. Instructions for 2D-visualization are also provided. For now, two storm processes are available in the library:
+A starting code is provided in ```SimM2Process.R```, where the user can call the C++ source code to simulate within a *d-rectangle* or a *d-sphere*, where *d* can be any dimension (Note that the path should be adapted at the beginning of the file). Instructions for 2D-visualization are also provided. For now, two storm processes are available in the library:
 - Laplace storms (e.g. Gaussian): ![f(u)=e^{-\left(\dfrac{u}{a}\right)^\alpha}](https://latex.codecogs.com/svg.latex?f(u)=e^{-\left(\dfrac{u}{a}\right)^\alpha})
 - Student storms (e.g. Cauchy): ![f(u)=\left(1+\dfrac{u^2}{a^2}\right)^{-\alpha}](https://latex.codecogs.com/svg.latex?f(u)=\left(1+\dfrac{u^2}{a^2}\right)^{-\alpha})
 
@@ -21,7 +21,7 @@ The implementation of the algorithm relies on the following files:
 
 
 ## Example
-The figure below illustrates a simulation of a 2D Student Storm Process in a (400,600) rectangle with ![\alpha=1.5,a=1](https://latex.codecogs.com/svg.latex?\alpha=1.5,a=1).
+The figure below illustrates a simulation of a 2D Student Storm Process in a (400,600) rectangle with ![\alpha=1.5,a=1](https://latex.codecogs.com/svg.latex?\alpha=1.5,a=1). Note that this is the default simulation example given in ```SimM2Process.R```.
 
 ![alt text](https://github.com/Remsya/M2Process/blob/main/Files/CauchySim.png)
 
