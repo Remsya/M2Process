@@ -9,7 +9,7 @@ This repository contains the reference implementation of the algorithm detailed 
 ## Code
 A starting code is provided in ```SimM2Process.R```, where the user can call the C++ source code to simulate within a *d-rectangle* or a *d-sphere*, where *d* can be any dimension (Note that the path should be adapted at the beginning of the file). Instructions for 2D-visualization are also provided. For now, two storm processes are available in the library:
 - Laplace storms (e.g. Gaussian): ![f(u)=e^{-\left(\dfrac{u}{a}\right)^\alpha}](https://latex.codecogs.com/svg.latex?f(u)=e^{-\left(\dfrac{u}{a}\right)^\alpha})
-- Student storms (e.g. Cauchy): ![f(u)=\left(1+u^2/a^2\right)^{-\alpha}](https://latex.codecogs.com/svg.latex?f(u)=\left(1+\dfrac{u^2}{a^2}\right)^{-\alpha})
+- Student storms (e.g. Cauchy): ![f(u)=\left(1+u^2/a^2\right)^{-\alpha}](https://latex.codecogs.com/svg.latex?f(u)=\left(1+u^2/a^2\right)^{-\alpha})
 
 The implementation of the algorithm relies on the following files:
 - ```R_SimM2Process.cpp```: Contains the interface between R and C++ to simulate a storm process or compute the maximas when the Poisson points are already calculated and stored.
