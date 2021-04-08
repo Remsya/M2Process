@@ -34,7 +34,7 @@ radius <- 20
 delta <- 1
 
 # Build grid of points (if ball, grid must be included in B(0,radius)). Does not have to be regular.
-nPoints <- c(800,560)
+nPoints <- c(600,400)
 Grid <- generateNRectangle(window, nPoints)
 
 # Simulate M2 Process. If seed is not defined, then the process is random. simulation[i] is the value in Grid[i].
