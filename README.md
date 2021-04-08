@@ -9,7 +9,7 @@ This repository contains the reference implementation of the algorithm detailed 
 ## Code
 A starting code is provided in ```SimM2Process.R```, where the user can call the C++ source code to simulate within a *d-rectangle* or a *d-sphere*, where *d* can be any dimension. Instructions for 2D-visualization are also provided. For now, two storm processes are available in the library:
 - Laplace storms
-![f(u)=\exp\left\{-\left(\dfrac{u}{a}\right)^\alpha\right\}](https://latex.codecogs.com/svg.latex?f(u)=\exp\left\{-\left(\dfrac{u}{a}\right)^\alpha\right\})
+![f(u)=\exp^{-\left(\dfrac{u}{a}\right)^\alpha}](https://latex.codecogs.com/svg.latex?f(u)=\exp\left\{-\left(\dfrac{u}{a}\right)^\alpha\right\})
 - Student storms: 
 ![f(u)=\left(1+\dfrac{u^2}{a^2}\right)^{-\alpha}](https://latex.codecogs.com/svg.latex?f(u)=\left(1+\dfrac{u^2}{a^2}\right)^{-\alpha})
 
