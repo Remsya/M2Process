@@ -8,7 +8,7 @@ This repository contains the reference implementation of the algorithm detailed 
 
 ## Code
 A starting code is provided in ```SimM2Process.R```, where the user can call the C++ source code to simulate within a *d-rectangle* or a *d-sphere*, where *d* can be any dimension. For *d = 2*, a visualization code is provided. For now, two storm processes are available:
-- Laplace storms: ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
+- Laplace storms: ![x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
 - Cauchy
 
 ![alt text](https://github.com/Remsya/M2Process/blob/main/Files/Rplot.png)
