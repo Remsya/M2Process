@@ -12,7 +12,7 @@ A starting code is provided in ```SimM2Process.R```, where the user can call the
 ![f(x)=e^{-\frac{x^2}{a^2}}](https://latex.codecogs.com/svg.latex?f(x)=e^{-\frac{x^2}{a^2}})
 - Student storms: 
 ![f(x)=\frac{1}{\left(1+x^2/a^2\right)^\alpha}](https://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\left(1+x^2/a^2\right)})
-![f(u)=  \left( 1 +\dfrac{  u^2}{a^2}\right)^{-\alpha}](https://latex.codecogs.com/svg.latex?f(u)=  \left( 1 +\dfrac{  u^2}{a^2}\right)^{-\alpha})
+![f(u)=\left(1+\dfrac{u^2}{a^2}\right)^{-\alpha}](https://latex.codecogs.com/svg.latex?f(u)=  \left( 1 +\dfrac{  u^2}{a^2}\right)^{-\alpha})
 
 
 
