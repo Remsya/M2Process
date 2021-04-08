@@ -12,6 +12,9 @@ A starting code is provided in ```SimM2Process.R```, where the user can call the
 ![f(x)=e^{-\frac{x^2}{a^2}}](https://latex.codecogs.com/svg.latex?f(x)=e^{-\frac{x^2}{a^2}})
 - Student storms: 
 ![f(x)=\frac{1}{\left(1+x^2/a^2\right)^\alpha}](https://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\left(1+x^2/a^2\right)})
+![f(u)=  \left( 1 +\dfrac{  u^2}{a^2}\right)^{-\alpha}](https://latex.codecogs.com/svg.latex?f(u)=  \left( 1 +\dfrac{  u^2}{a^2}\right)^{-\alpha})
+
+
 
 
 A starting code is provided in ```main_py```, where the user can play around with the different methods on two datasets that you will find in the `data` folder: the *Stanford Bunny* and a lighter version of the original *Asian Dragon*, downloaded from the Standord 3D Scanning Repository (https://graphics.stanford.edu/data/3Dscanrep/). The implementation relies on three main files:
