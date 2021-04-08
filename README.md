@@ -18,7 +18,7 @@ A starting code is provided in ```main_py```, where the user can play around wit
 - ```utils.py```: contains all sorts of useful functions to perform PCA, compute rotation matrices, gradients, etc.
 
 ## Example
-The figure below illustrates a simulation of a 2D Cauchy Storm Process with ![ \alpha = 1.5](https://latex.codecogs.com/svg.latex?\alpha = 1.5) 
+The figure below illustrates a simulation of a 2D Cauchy Storm Process with ![\alpha=1.5](https://latex.codecogs.com/svg.latex?\alpha=1.5) 
 
 ![alt text](https://github.com/Remsya/M2Process/blob/main/Files/Rplot.png)
 
