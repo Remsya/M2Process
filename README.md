@@ -14,8 +14,8 @@ A starting code is provided in ```SimM2Process.R```, where the user can call the
 The implementation of the algorithm relies on the following files:
 - ```R_SimM2Process.cpp```: Contains the interface between R and C++ to simulate a storm process or compute the maximas when the Poisson points are already calculated and stored.
 - ```M2ProcessSimulate.cpp```: Global structure of the simulation of the inner and outer processes (see *Continuous simulation of storm processes* for more details).
-- ```Grid.cpp```: Precalculates the covering to access the neighbours faster when comparing the domains of influence.
-- ```PoissonPoint.cpp```: Poisson point object (with a real and spatial components) which methods allow to compare the domains of influence between two points if implemented for the corresponding shape function.
+- ```Grid.cpp```: Precalculates the covering to access the neighbours faster when comparing the domains of influence of two Poisson points.
+- ```PoissonPoint.cpp```: Poisson point object (with a real and spatial components) which methods allow to compare the domains of influence between two points if implemented for the corresponding shape function (i.e. to update the box containing the domain of influence of a new point).
 - ```M2ProcessHelper.cpp``` and ```VectorHelper.cpp```: Helper functions to compute necessary mathematical quantities (volumes, etc.) and manipulate vectors.
 - ```StormFunction.cpp```, ```StormFunctionLaplace.cpp```, ```StormFunctionCauchy.cpp```: To create and compute the shape functions, as well as their moments.
 
