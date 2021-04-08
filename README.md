@@ -9,7 +9,9 @@ This repository contains the reference implementation of the algorithm detailed 
 ## Code
 A starting code is provided in ```SimM2Process.R```, where the user can call the C++ source code to simulate within a *d-rectangle* or a *d-sphere*, where *d* can be any dimension. Instructions for 2D-visualization are also provided. For now, two storm processes are available in the library:
 - Laplace storms
-- Student storms: ![f(x)=\frac{1}{\left(1+x^2/a^2\right)}](https://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\left(1+x^2/a^2\right)})
+![f(x)=\frac{1}{\left(1+x^2/a^2\right)}](https://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\left(1+x^2/a^2\right)})
+- Student storms: 
+![f(x)=\frac{1}{\left(1+x^2/a^2\right)}](https://latex.codecogs.com/svg.latex?f(x)=\frac{1}{\left(1+x^2/a^2\right)})
 
 
 A starting code is provided in ```main_py```, where the user can play around with the different methods on two datasets that you will find in the `data` folder: the *Stanford Bunny* and a lighter version of the original *Asian Dragon*, downloaded from the Standord 3D Scanning Repository (https://graphics.stanford.edu/data/3Dscanrep/). The implementation relies on three main files:
