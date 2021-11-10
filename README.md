@@ -7,7 +7,7 @@ Storm Process continuous simulation algorithm.
 This repository contains the reference implementation of the algorithm detailed in *Continuous simulation of storm processes*, by Demangeot et al., as well as a basic R interface.
 
 ## Code
-A starting code is provided in ```SimM2Process.R```, where the user can call the C++ source code to simulate within a *d-rectangle* or a *d-sphere*, where *d* can be any dimension (Note that the path should be adapted at the beginning of the file). Instructions for 2D-visualization are also provided. For now, two storm processes are available in the library:
+A starting code is provided in ```SimM2Process.R```, where the user can call the C++ source code to simulate within a *d-rectangle* or a *d-sphere*, where *d* can be any dimension (Note that the path should be adapted at the beginning of the file). Instructions for 2D-visualization are also provided. The file ```SimM2process_examples.R``` contains a setup we used to simulate some examples shown in the article. For now, two storm processes are available in the library:
 - Laplace storms (e.g. Gaussian): ![f(u)=e^{-\left(u/a\right)^\alpha}](https://latex.codecogs.com/svg.latex?f(u)=e^{-\left(u/a\right)^\alpha})
 - Student storms (e.g. Cauchy): ![f(u)=\left(1+u^2/a^2\right)^{-\alpha}](https://latex.codecogs.com/svg.latex?f(u)=\left(1+u^2/a^2\right)^{-\alpha})
 
